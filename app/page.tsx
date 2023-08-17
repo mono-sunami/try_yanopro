@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Todo, Todos } from "../types/todo";
-import DateTime from "./components/date";
+// import DateTime from "./components/date";
 
 export default function Home() {
   const [inputValue, setInputValue] = useState<string>("");
